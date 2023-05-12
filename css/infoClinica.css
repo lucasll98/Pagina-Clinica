@@ -1,0 +1,39 @@
+.contenedorInfo {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: white;
+	background-size: 100%;
+	height: 80px;
+
+	padding-left: 8%;
+}
+
+.infoLogo {
+	height: 30px;
+	padding-right: 15px;
+	font-size: 40px;
+	color: #78a0dc;
+	padding-bottom: 1%;
+}
+
+.infoCarta {
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding-right: 10%;
+	padding-bottom: 0.8%;
+}
+
+.infoCarta h1 {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.infoCarta h3 {
+	font-size: 0.6em;
+	font-weight: 100;
+}

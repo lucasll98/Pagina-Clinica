@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/tp-final.css" />
+		<link rel="stylesheet" href="css/estiloGenerales.css" />
+		<link rel="stylesheet" href="css/infoClinica.css" />
+		<link rel="stylesheet" href="css/volverBotn.css" />
+		<link rel="stylesheet" href="css/mapa.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Schibsted+Grotesk:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+		/>
+
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+		/>
+		<script
+			type="text/javascript"
+			src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+		></script>
+		<script src="js/inputs-redes.js"></script>
+
+		<link
+			rel="stylesheet"
+			href="https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&PARAMETERS"
+		/>
+
+		<title>TP Final</title>
+	</head>
+	<body>
+		<script src="js/responsive.js"></script>
+
+		<div id="cabezera" class="header">
+			<div class="itemHeaderImg"><img src="img/logo.png" alt="" /></div>
+			<div class="itemHeader" id="quienes">
+				<a href="#quienSomos" class="itemH">Quienes somos</a>
+			</div>
+			<div class="itemHeader" id="registrate">
+				<a href="#registro" class="itemH">Turnos</a>
+			</div>
+			<div class="itemHeader" id="funciona">
+				<a href="#BA" class="itemH">Infórmate</a>
+			</div>
+			<div class="itemHeader" id="faqs"><a href="#faq" class="itemH">FAQs</a></div>
+			<div class="itemLogin"><a href="">Ingresar</a></div>
+		</div>
+
+		<div class="containerHeaderResponsive">
+			<div class="itemHeaderImg">
+				<img class="imgH" src="img/logo.png" alt="" />
+				<i class="las la-bars"></i>
+			</div>
+
+			<div class="itemsResponsiveContainer">
+				<div class="itemHeaderR" id="quienes">
+					<a href="#quienSomos" class="itemH">Quienes somos</a>
+				</div>
+				<div class="itemHeaderR" id="registrate">
+					<a href="#registro" class="itemH">Turnos</a>
+				</div>
+				<div class="itemHeaderR" id="funciona">
+					<a href="#BA" class="itemH">Infórmate</a>
+				</div>
+				<div class="itemHeaderR" id="faqs">
+					<a href="#faq" class="itemH">FAQs</a>
+				</div>
+				<div class="itemLogin"><a href="">Ingresar</a></div>
+			</div>
+		</div>
+
+		<div class="contenedorImagen">
+			<h1 class="itemImagen1">¡BIENVENIDOS!</h1>
+			<h3 class="itemImagen2">
+				Atención especializada en la salud y bienestar de las personas.
+			</h3>
+			<div class="itemImagen3"><a href="#registro">Registrate</a></div>
+		</div>
+
+		<section id="infoClinica">
+			<!--Los estilos en infoClinicaa.css-->
+			<div class="contenedorInfo">
+				<i class="infoLogo bi bi-alarm-fill"></i>
+				<!-- <img class="infoLogo" src="img/horario.png" alt="" /> -->
+				<div class="infoCarta">
+					<h1>Horario:</h1>
+					<h3>Lun-Sab: 08:00 - 23:30</h3>
+				</div>
+				<i class="infoLogo bi bi-telephone-fill"></i>
+				<!-- <img class="infoLogo" src="img/telefono.png" alt="" /> -->
+				<div class="infoCarta">
+					<h1>Conmutador: 1023 - 4567</h1>
+					<h3>Call Center: 1023 - 4568</h3>
+				</div>
+				<i class="infoLogo bi bi-geo-alt-fill"></i>
+				<!-- <img class="infoLogo" src="img/lugar.png" alt="" /> -->
+				<div class="infoCarta">
+					<h1>Ubicación:</h1>
+					<h3>Pichincha 1890, C1245 CABA</h3>
+				</div>
+			</div>
+		</section>
+
+		<div id="quienSomos" class="contenedorQuienes">
+			<div class="itemQuienes1">CONOCENOS</div>
+			<div class="itemQuienes2">¿Quienes somos?</div>
+			<div class="itemQuienes3">
+				Somos un equipo de más de 1000 personas entre profesionales médicos,
+				tecnicos comprometidos en brindar cada día una excelente atención,
+				eficiencia y con un trato cálido y cordial.
+			</div>
+		</div>
+
+		<section id="qsCarrusel">
+			<div class="carousel">
+				<img src="img/c1.jpg" />
+				<img src="img/c2.jpg" />
+				<img src="img/c3.jpg" />
+			</div>
+		</section>
+
+		<div id="registro" class="contenedorRegistrate">
+			<div class="itemRegistrate1">TURNOS</div>
+			<div class="itemRegistrate2">¿Turnos? Llamá o dejanos tu contacto</div>
+			<div class="contenedorInputs">
+				<input
+					type="text"
+					class="itemRegistrate inputs"
+					placeholder="Nombre*"
+					id="nombre"
+				/>
+				<p class="campo1">Error! Debes completar este campo!</p>
+				<input
+					type="text"
+					class="itemRegistrate inputs"
+					placeholder="Apellido*"
+					id="apellido"
+				/>
+				<p class="campo2">Error! Debes completar este campo!</p>
+				<input
+					type="email"
+					class="itemRegistrate inputs"
+					placeholder="Email*"
+					id="email"
+				/>
+				<p class="campo3">Error! Debes completar este campo!</p>
+				<input
+					type="number"
+					class="itemRegistrate inputs"
+					placeholder="Teléfono*"
+					id="telefono"
+				/>
+				<p class="campo4">Error! Debes completar este campo!</p>
+				<input
+					type="text"
+					class="itemRegistrate inputs"
+					placeholder="Asunto*"
+					id="asunto"
+				/>
+				<p class="campo5">Error! Debes completar este campo!</p>
+
+				<button class="itemBoton" onclick="return enviarDatos()">
+					<a href="" class="boton">Enviar</a>
+				</button>
+			</div>
+		</div>
+
+		<div id="BA" class="contenedorAyuda">
+			<p class="itemAyuda1">INFORMATE</p>
+			<p class="itemAyuda2">¿Por qué elegirnos?</p>
+			<div class="contenedorItemsAyuda">
+				<div class="itemsAyuda">
+					<!-- <i class="iconito bi-hospital"></i>-->
+					<img src="img/8542025_hospital_building_icon.png" alt="" class="iconito" />
+					<!-- <p class="numeros">01.</p>-->
+					<p>
+						Contamos con la tecnologia para
+						<span style="color: #3172d2">su recuperación.</span>
+					</p>
+				</div>
+				<div class="itemsAyuda">
+					<!-- <i class="iconito bi-bandaid"></i>-->
+					<img src="img/3678442_hospital_medicine_icon.png" alt="" class="iconito" />
+					<!-- <p class="numeros">02.</p>-->
+					<p>
+						Tu salud es lo más <span style="color: #3172d2">importante</span> para
+						nosotros.
+					</p>
+				</div>
+				<div class="itemsAyuda">
+					<!-- <i class="iconito bi-person-hearts"></i>-->
+					<img
+						src="img/5929124_doctor_healthcare_hospital_medical_medicine_icon.png"
+						alt=""
+						class="iconito"
+					/>
+					<!-- <p class="numeros">03.</p>-->
+					<p>
+						El personal mejor <span style="color: #3172d2">capacitado</span> a su
+						disposicion.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="contenedorFaqsYMapa">
+			<div id="faq" class="contenedorPreguntas">
+				<div class="itemPreguntas1">CONOCENOS</div>
+				<div class="itemPreguntas2">Preguntas Frecuentes</div>
+				<div class="acordeon">
+					<div class="acordeon-item">
+						<button class="botonpreg" id="botonpreg1">
+							<span> ¿Cuáles son los horarios de atención al público? </span>
+							<span class="icon">
+								<img src="./img/flecha2.png" class="up" id="up1" width="10px" />
+							</span>
+						</button>
+						<div class="respu" id="resp1">
+							<ul>
+								<li>Lunes a Sábados 8:00 - 23:30 Hs.</li>
+								<li>Domingos cerrado.</li>
+								<li>Guardia 24 Hs.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="acordeon-item">
+						<button class="botonpreg" id="botonpreg2">
+							<span>
+								¿Cuáles son las prestaciones (pre-pagas, obras sociales, etc) con las
+								que trabajan?
+							</span>
+							<span class="icon">
+								<img src="./img/flecha2.png" class="up" id="up2" width="10px" />
+							</span>
+						</button>
+						<div class="respu" id="resp2">
+							<p>
+								Clínica Santo Viernes tiene relación con todas las prestadoras del país.
+								Además atendemos a particulares.
+							</p>
+						</div>
+					</div>
+					<div class="acordeon-item">
+						<button class="botonpreg" id="botonpreg3">
+							<span> ¿Cuáles son los horarios de atención al público? </span>
+							<span class="icon">
+								<img src="./img/flecha2.png" class="up" id="up2" width="10px" />
+							</span>
+						</button>
+						<div class="respu" id="resp3">
+							<ul>
+								<li>
+									Atención telefónica de nuestro call center: +54 (341) 1023 4567.
+								</li>
+								<li>A través de nuestro e-mail: turnos@clinicasantoviernes.com.ar</li>
+								<li>
+									A través de nuestras redes sociales: clinicaSV (Instagram, Facebook y
+									Linkedln)
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="acordeon-item">
+						<button class="botonpreg" id="botonpreg4">
+							<span> ¿Qué especialidades atienden? </span>
+							<span class="icon">
+								<img src="./img/flecha2.png" class="up" id="up4" width="10px" />
+							</span>
+						</button>
+						<div class="respu" id="resp4">
+							<p>
+								Clínica Médica, Cardiología, Dermatología, Cirugía General, Ginecología,
+								Neonatología, Neumonología, Oftalmología, Nutrición.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script>
+				$(document).ready(function () {
+					$(".respu").hide();
+					$("#botonpreg1").on("click", () => {
+						$("#resp1").toggle();
+					});
+					$("#botonpreg2").on("click", () => {
+						$("#resp2").toggle();
+					});
+					$("#botonpreg3").on("click", () => {
+						$("#resp3").toggle();
+					});
+					$("#botonpreg4").on("click", () => {
+						$("#resp4").toggle();
+					});
+				});
+			</script>
+
+			<!--Aca va la API-->
+			<div id="contenedorMapa">
+				<div class="itemPreguntas1">CONOCENOS</div>
+				<div class="itemPreguntas2">¿Dónde encontrarnos?</div>
+				<iframe
+					width="300"
+					height="300"
+					frameborder="0"
+					src="https://www.bing.com/maps/embed?h=400&w=500&cp=-37.99421803142168~-57.60202646255493&lvl=16&typ=d&sty=r&src=SHELL&FORM=MBEDV8"
+					scrolling="no"
+				>
+				</iframe>
+				<div
+					style="
+						white-space: nowrap;
+						text-align: center;
+						width: 350px;
+						padding: 6px 0;
+						margin-top: 20px;
+					"
+				>
+					<a
+						id="largeMapLink"
+						target="_blank"
+						href="https://www.bing.com/maps?cp=-37.99421803142168~-57.60202646255493&amp;sty=r&amp;lvl=16&amp;FORM=MBEDLD"
+						>Ver mapa más grande</a
+					>
+					&nbsp; | &nbsp;
+					<a
+						id="dirMapLink"
+						target="_blank"
+						href="https://www.bing.com/maps/directions?cp=-37.99421803142168~-57.60202646255493&amp;sty=r&amp;lvl=16&amp;rtp=~pos.-37.99421803142168_-57.60202646255493____&amp;FORM=MBEDLD"
+						>Obtener indicaciones</a
+					>
+				</div>
+			</div>
+			<!--Aca va la API-->
+		</div>
+		<footer class="contFoot">
+			<div class="subContFoot">
+				<p>Terminos y Condiciones</p>
+				<p>Contactanos</p>
+				<div class="der">
+					<a href=""><i class="bi bi-facebook" onclick="enlaceFacebook()"></i></a>
+					<a href=""><i class="bi bi-linkedin" onclick="enlaceLinkedin()"></i></a>
+				</div>
+			</div>
+			<div class="copyR">
+				<p>2023 Todos los derechos Reservados</p>
+			</div>
+		</footer>
+		<a href="#" class="botonVolver"><i class="bi bi-arrow-bar-up"></i></a>
+		<script src="js/volver.js"></script>
+	</body>
+</html>

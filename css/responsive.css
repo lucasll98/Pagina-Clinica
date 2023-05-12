@@ -1,0 +1,122 @@
+#BA,
+#faq,
+#quieneSomos #registro {
+	padding: 2% 0%;
+}
+@media screen and (max-width: 767.98px) {
+	.contenedorFaqsYMapa,
+	.contenedorItemsAyuda,
+	.contenedorAyuda,
+	.contenedorRegistrate,
+	.contenedorQuienes,
+	#qsCarrusel,
+	.contenedorImagen {
+		width: 125%;
+		flex-direction: column;
+	}
+	/* .contenedorFaqsYMapa, */
+	 .contenedorItemsAyuda {
+		width: 100%;
+		flex-direction: column;
+	} 
+
+	.itemsAyuda {
+		padding: 1% 2%;
+	}
+
+	.contFoot {
+		width: 125%;
+	}
+	.subContFoot {
+		width: 100%;
+		padding: 1% 0;
+	}
+	.copyR {
+		width: 71%;
+		font-size: 0.3em;
+	}
+	.der {
+		margin-left: 50px;
+	}
+
+	.infoCarta {
+		padding-right: 8%;
+	}
+	.itemHeaderImg {
+		margin: 0;
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 767.98px) {
+	.menuPrincipal {
+		flex-direction: row;
+	}
+	.toggleMENU {
+		display: none;
+	}
+	.contFoot {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.contenedorFaqsYMapa,
+	.contenedorItemsAyuda,
+	.contenedorAyuda,
+	.contenedorRegistrate,
+	.contenedorQuienes,
+	#qsCarrusel,
+	.contenedorImagen {
+		width: 125%;
+		flex-direction: column;
+	}
+	.itemPreguntas2 {
+		text-align: center;
+	}
+	.itemsAyuda {
+		padding: 1% 2%;
+	}
+
+	.contFoot {
+		width: 100%;
+	}
+
+	.itemQuienes3,
+	.contenedorItemsAyuda {
+		width: 70%;
+	}
+	.contFoot {
+		width: 125%;
+	}
+	.subContFoot {
+		width: 100%;
+		padding: 1% 0;
+	}
+	.copyR {
+		width: 91%;
+		font-size: 0.3em;
+	}
+	.der {
+		margin-left: 20px;
+	}
+
+	.infoCarta {
+		padding-right: 8%;
+	}
+	.itemHeaderImg {
+		margin: 0;
+		justify-content: center;
+	}
+
+	.contenedorInfo {
+		justify-content: center;
+		align-items: center;
+
+		padding-left: 30%;
+		padding-bottom: 2%;
+	}
+	.contenedorMapa {
+		margin-top: 0;
+	}
+}

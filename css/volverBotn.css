@@ -1,0 +1,158 @@
+.botonVolver {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	background-color: #3172d2;
+	color: white;
+	padding: 15px;
+	border-radius: 4px;
+}
+.botonVolver:hover {
+	background-color: #6a9deb;
+}
+/* carrusel*/
+#qsCarrusel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding-bottom: 20px;
+	background: rgb(231, 229, 252);
+}
+
+.carousel {
+	max-width: 60%;
+	margin: 0 auto;
+}
+.carousel img {
+	width: 250px;
+	height: 30%;
+	object-fit: cover;
+}
+/*NUEVO menu**************************************/
+
+.menuPrincipal {
+	list-style: none;
+	margin: 0;
+	padding: 0 20%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition-duration: 0.3s;
+	/* transform: translateY(-100%);*/
+}
+.menuPrincipal--show {
+	transform: translateY(-10);
+}
+
+.menuItem {
+	justify-content: flex-end;
+	padding: 0.7em;
+}
+.menuItem2 a {
+	color: white;
+}
+.menuItem2 {
+	padding: 0.5% 1.5%;
+	background-color: #5488d6;
+	border-radius: 25px;
+	color: white;
+	transition-duration: 0.2s;
+}
+.menuItem2:hover {
+	background-color: #3172d2;
+}
+
+ul .itemHeaderImg {
+	padding-left: 5%;
+	padding-right: 27%;
+}
+/*
+.toggleMENU{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 1;
+  width: 40px;
+}
+.toggleMENU img{
+  width: 40px;
+}*/
+/*NUEVO FOOTER**************************************/
+.contFoot {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	background-color: #5488d6;
+	background-size: 100% cover;
+	height: 150px;
+
+	color: white;
+}
+
+.subContFoot {
+	align-items: center;
+	justify-content: center;
+
+	padding-right: 0;
+	/*padding: 1% 10%;
+  width: 66%;
+  height: 75px;*/
+	display: flex;
+}
+
+.subContFoot p {
+	font-size: 0.8rem;
+	padding-right: 10px;
+}
+
+.subContFoot a {
+	text-decoration: none;
+}
+
+.subContFoot a i {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: white;
+	color: #5488d6;
+
+	margin-left: 10px;
+
+	transition-duration: 0.3s;
+}
+.subContFoot a i:hover {
+	color: #040e1f;
+	background: #7f9dca;
+}
+
+.copyR {
+	width: 50%;
+	border-top: solid rgb(255, 255, 255) 1px;
+	align-self: center;
+	text-align: center;
+}
+
+.copyR {
+	padding-top: 15px;
+	font-size: 0.5em;
+	font-weight: 100;
+}
+.der {
+	display: flex;
+	justify-self: flex-end;
+	margin-left: 360px;
+}

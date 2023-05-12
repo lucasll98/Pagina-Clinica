@@ -1,0 +1,10 @@
+#contenedorMapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgb(252, 229, 229);
+}
